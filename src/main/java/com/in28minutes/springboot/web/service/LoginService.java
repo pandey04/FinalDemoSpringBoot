@@ -13,7 +13,7 @@ public class LoginService {
 		
 		
 		  Connection con =
-		  DriverManager.getConnection("jdbc:mysql://mysqldb:3306/demoapp?" +
+		  DriverManager.getConnection("jdbc:mysql://localhost:3306/demoapp?" +
 		  "user=root&password=root@123");
 		 
 		 
